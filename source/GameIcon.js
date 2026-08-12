@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.js";import{r as t,t as n}from"./game.js";var r=e();function i({className:e,spec:i,iconClassName:a,loading:o=`lazy`,size:s=20}){let c=t(e,i);return c?(0,r.jsx)(`img`,{src:c,alt:[i,e].filter(Boolean).join(` `),className:a,loading:o,style:{width:s,height:s,borderRadius:4,border:`1px solid ${n(e)}`,flexShrink:0}}):null}export{i as t};

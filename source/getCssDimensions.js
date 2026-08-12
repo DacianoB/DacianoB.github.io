@@ -1,0 +1,1 @@
+import{pn as e}from"./menu.js";import{W as t,tt as n}from"./input.js";function r(r){let i=t(r),a=parseFloat(i.width)||0,o=parseFloat(i.height)||0,s=n(r),c=s?r.offsetWidth:a,l=s?r.offsetHeight:o;return(e(a)!==c||e(o)!==l)&&(a=c,o=l),{width:a,height:o}}export{r as t};
